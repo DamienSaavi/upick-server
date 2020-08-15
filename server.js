@@ -5,7 +5,7 @@ const fetch = require('node-fetch')
 const app = express()
 const API_KEY = process.env.FUSION_KEY
 
-const PORT = 3000
+const PORT = process.env.PORT
 
 app.use(cors())
 app.use(express.json())
