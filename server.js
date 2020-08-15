@@ -3,7 +3,7 @@ const cors = require('cors')
 const fetch = require('node-fetch')
 
 const app = express()
-const API_KEY = 'kAIGRVo24X_xzTzpe_60tBHWNvlidV6DjXfHQ9-XID4EvHGzRdb072Dk_zTkGbbGAuEOctvi2VsK3pLT3P488YkxIKZrXWvUiHN-m2cwEwKc7Vstnh1JgB9OTL8MX3Yx'
+const API_KEY = process.env.FUSION_KEY
 
 const PORT = 3000
 
